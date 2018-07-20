@@ -9,6 +9,20 @@ def heapsort(arr):
     
   return sorted_data
 
+# Sean's solution:
+  # def heapsort(arr):
+
+  # heap = Heap()
+  # sorted = []
+
+  # for el in arr:
+  #   heap.insert(el)
+  # while heap.get_size() > 0:
+  #   sorted.append(heap.delete())  # this returns list in descending order
+  #   sorted.reverse() # reverse bc tests have ascending order
+
+  # return sorted
+
 class Heap:
   def __init__(self):
     self.storage = [0]
